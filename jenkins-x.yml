@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: gke-test-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: gke-test-staging
+  pipelines: {}
